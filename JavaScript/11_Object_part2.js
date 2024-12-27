@@ -68,7 +68,7 @@ console.log(Object.hasOwnProperty('name'));
 
 
 /************************* De-Structure **********************/
-//  Object Destructuring is the syntax for extracting values from an object property and assigning them to a variable. 
+//  Object Destructuring is the syntax for extracting values from an object property and assigning them to a variable. it is used to make code reusability more efficient.
 let emp = {
     emp_name : "aman" ,
     emp_id : "123abc" ,
