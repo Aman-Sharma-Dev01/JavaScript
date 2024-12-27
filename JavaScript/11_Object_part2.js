@@ -67,4 +67,14 @@ console.log(Object.entries(instagramUser)); // it will give all the keys and val
 console.log(Object.hasOwnProperty('name'));
 
 
+/************************* De-Structure **********************/
+//  Object Destructuring is the syntax for extracting values from an object property and assigning them to a variable.
+let emp = {
+    emp_name : "aman" ,
+    emp_id : "123abc" ,
+    project : "none"
+}
 
+let {emp_id : id } = emp
+
+console.log(id);
