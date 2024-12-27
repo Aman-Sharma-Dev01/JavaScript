@@ -23,7 +23,7 @@ user1["full name"] = "king"
 console.log(user1["full name"]);
 
 user1.greeting = function(){
-    console.log(`Hello world my name is ${this.name} and i am ${this.age} years old.`);
+    console.log(`Hello world my name is ${this.name} and i am ${this.age} years old.`); // here this is used to refer the property of object.
     
 }
 
