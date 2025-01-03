@@ -1,4 +1,4 @@
-//for loop
+/************** for loop ************/
 
 for (let i = 1; i <= 10; i++) {
     // console.log(i);
@@ -53,3 +53,29 @@ for (let i = 1; i <= 10; i++) {
     }
     console.log(i); 
  }
+
+ /*********** While Loop *************/
+
+let i = 0
+ while (i <= 10) {
+    console.log(i);
+    i++
+ }
+
+ let arr2 = ["flash" , "superman" , "batman"]
+ let j = 0
+ while (j < arr2.length) {
+    console.log(`value is: ${arr2[j]}`);
+    j++
+ } 
+
+
+
+
+/********** Do-While Loop *************/
+
+let score = 1
+do {
+    console.log(`score is ${score}`);
+    score++
+} while (score <= 10);
