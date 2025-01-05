@@ -11,7 +11,7 @@ function makeBubble(){
 }
 
 function runTimer (){   
-    let timer = 10;
+    let timer = 60;
     let intTime = setInterval(function(){
         if(timer > 0){
             timer--;
